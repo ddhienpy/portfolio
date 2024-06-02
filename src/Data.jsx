@@ -1,9 +1,9 @@
-import Project1 from './assets/project1.jpeg';
-import Project2 from './assets/project2.jpg';
-import Project3 from './assets/project3.jpeg';
-import Project4 from './assets/project4.jpeg';
+import Project1 from './assets/travelist.png';
+import Project2 from './assets/sugi.jpeg';
+import Project3 from './assets/map.png';
+import Project4 from './assets/joilmills.jpeg';
 import Project5 from './assets/project5.jpg';
-import Project6 from './assets/project6.jpg';
+import Project6 from './assets/sdkd.jpeg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -134,7 +134,7 @@ export const skills = [
     name: 'Soft Skills',
     percentage: 85,
     description:
-      'Work independently, communication, estimation, time management, logical ability, leadership.',
+      'Work independently, communication, estimation, time management, logical ability.',
   },
 ];
 
@@ -142,111 +142,111 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Branding',
-    title: 'Zorro',
+    category: 'e-commerce',
+    title: 'Travelist',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'An e-commerce website for booking Flight and Hotel in Japan.',
   },
   {
     id: 2,
     img: Project2,
-    category: 'UI UX Design',
-    title: 'Gooir',
+    category: 'e-commerce',
+    title: 'Sugi Drug Store',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'A website to run an advertising campaign for Sugi Drug Store.',
   },
   {
     id: 3,
     img: Project3,
-    category: 'Development',
-    title: 'Explore',
+    category: 'statistics',
+    title: 'Tempo Research',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Data statistics website in Japan and visualize datasets by Google map.',
   },
   {
     id: 4,
     img: Project4,
-    category: 'Photography',
-    title: 'Mozar',
+    category: 'admin',
+    title: 'Joilmills',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Website to management employees, company, stores, devices.',
   },
   {
     id: 5,
     img: Project5,
-    category: 'Development',
-    title: 'Stay Fit',
+    category: 'admin',
+    title: 'Aston',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Website to management employees, create the survey and the hierarchical tree in the organization.',
   },
   {
     id: 6,
     img: Project6,
-    category: 'Branding',
-    title: 'Kana',
+    category: 'admin',
+    title: 'SDKD',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+      'Management devices, stations and adjust traffic lights to prevent a traffic jam on the road.',
   },
 ];
 
 export const cv = [
   {
     id: 1,
-    title: 'CoderHouse Courses',
-    subtitle: 'Backend Programming',
-    date: '2014 - 2016',
+    title: 'Ho Chi Minh City University of Technology',
+    subtitle: 'Computer Science',
+    date: '2016 - 2020',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Learning a lot of things about Information Technologies, knowledge about OS, Data Structure and Algorithm, team work, presentation skills, ...',
     category: 'education',
   },
 
-  {
-    id: 2,
-    title: 'Lviv National Academy of Arts',
-    subtitle: 'Faculty of Design',
-    date: '2012 - 2014',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    category: 'education',
-  },
+  // {
+  //   id: 2,
+  //   title: 'Lviv National Academy of Arts',
+  //   subtitle: 'Faculty of Design',
+  //   date: '2012 - 2014',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  //   category: 'education',
+  // },
 
-  {
-    id: 3,
-    title: 'IT Future',
-    subtitle: 'High School',
-    date: '2010 - 2012',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    category: 'education',
-  },
+  // {
+  //   id: 3,
+  //   title: 'IT Future',
+  //   subtitle: 'High School',
+  //   date: '2010 - 2012',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  //   category: 'education',
+  // },
 
   {
     id: 4,
-    title: 'UI Head & Manager',
-    subtitle: 'Soft Tech Inc.',
-    date: '2020 - PRESENT',
+    title: 'Zigexn Ventura',
+    subtitle: 'Fullstack Developer',
+    date: '2023 - PRESENT',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Writing documentation. Optimized pages for speed. Reviewing code for team. Received feedback from and built solutions for users and customers.',
     category: 'experience',
   },
 
   {
     id: 5,
-    title: 'UI / UX Specialist',
-    subtitle: 'Kana Design Studio',
-    date: '2018 - 2020',
+    title: 'Ominext Group',
+    subtitle: 'Frontend Developer',
+    date: '2022 - 2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Key member of the team to build the UI, code review and break tasks for junior developer. Helped back-end developers with coding and troubleshooting.',
     category: 'experience',
   },
 
   {
     id: 6,
-    title: 'Plugins Developer',
-    subtitle: 'Fiverr.com',
-    date: '2016 - 2018',
+    title: 'Hybrid Technologies VN',
+    subtitle: 'Fullstack Developer',
+    date: '2020 - 2022',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Implemented websites, mobile applications, and landing pages from concept through deployment. Collaborated with product team members to implement new feature developments.',
     category: 'experience',
   },
 ];

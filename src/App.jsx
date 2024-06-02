@@ -17,10 +17,10 @@ function App() {
       <Header />
       <Home />
       <Services />
+      <Resume />
       <Skill />
       <Portfolio />
-      <Resume />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Pricing />
       <Contact />
       <Footer />

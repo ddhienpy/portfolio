@@ -27,7 +27,7 @@ const Portfolio = () => {
         <section className="portfolio section" id="work">
             <h2 className="section__title text-cs">Portfolio</h2>
             <p className="section__subtitle">
-                My <span>Cases </span>
+                My <span>Projects </span>
             </p>
             <List list={navList} filterItems={filterItems} />
             <div className="portfolio__container container grid">

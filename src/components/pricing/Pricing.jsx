@@ -15,7 +15,7 @@ const Pricing = () => {
             <div className="pricing__item card card-one">
                 <span className="pricing__subtitle text-cs">Hourly Basic</span>
                 <h3 className="pricing__price">
-                    39 <span>$</span> <em>Hour</em>
+                    24 <span>$</span> <em>Hour</em>
                 </h3>
 
                 <p className="pricing__description">
@@ -49,7 +49,7 @@ const Pricing = () => {
             <div className="pricing__item card card-one">
                 <span className="pricing__subtitle text-cs">Freelancing</span>
                 <h3 className="pricing__price">
-                    22 <span>$</span> <em>Hour</em>
+                    20 <span>$</span> <em>Hour</em>
                 </h3>
 
                 <p className="pricing__description">

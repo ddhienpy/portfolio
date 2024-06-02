@@ -12,11 +12,12 @@ const Resume = () => {
         </p>
 
         <div className="resume__container container grid">
+            {/* Experience */}
             <div className="resume__group">
-                <h3 className="resume__heading">Education</h3>
+                <h3 className="resume__heading">Experience</h3>
                 <div className="resume__items">
                     {cv.map((val) => {
-                        if (val.category === 'education') {
+                        if (val.category === 'experience') {
                             return (
                                 <Card
                                     key={val.id}
@@ -30,12 +31,11 @@ const Resume = () => {
                     })}
                 </div>
             </div>
-            {/* Experience */}
             <div className="resume__group">
-                <h3 className="resume__heading">Experience</h3>
+                <h3 className="resume__heading">Education</h3>
                 <div className="resume__items">
                     {cv.map((val) => {
-                        if (val.category === 'experience') {
+                        if (val.category === 'education') {
                             return (
                                 <Card
                                     key={val.id}

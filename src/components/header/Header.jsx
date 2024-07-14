@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './header.css'
 import { links } from '../../Data'
-import { FaBehance, FaDribbble, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsMoon, BsSun } from 'react-icons/bs'
 import { Link, animateScroll } from 'react-scroll'
 
@@ -68,14 +68,14 @@ const Header = () => {
                             })}
                         </ul>
                         <div className="header__socials">
-                            <a href="" className="header__socials-link">
-                                <FaTwitter />
+                            <a href="https://github.com/ddhienpy" className="header__socials-link" target="_blank" rel="noopener">
+                                <FaGithub />
                             </a>
-                            <a href="" className="header__socials-link">
-                                <FaDribbble />
+                            <a href="https://www.facebook.com/ddhienpy" className="header__socials-link" target="_blank" rel="noopener">
+                                <FaFacebook />
                             </a>
-                            <a href="" className="header__socials-link">
-                                <FaBehance />
+                            <a href="https://vn.linkedin.com/in/hiendd" className="header__socials-link" target="_blank" rel="noopener">
+                                <FaLinkedinIn />
                             </a>
                         </div>
                     </div>

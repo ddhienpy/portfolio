@@ -226,7 +226,7 @@ export const cv = [
     subtitle: 'Fullstack Developer',
     date: '2023 - PRESENT',
     description:
-      'Writing documentation. Optimized pages for speed. Reviewing code for team. Received feedback from and built solutions for users and customers.',
+      'Writing documentation. Optimized pages for speed. Reviewing code for team. Received feedback and gave the best solutions to customers.',
     category: 'experience',
   },
 

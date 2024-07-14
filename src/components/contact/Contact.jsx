@@ -61,7 +61,7 @@ const Contact = () => {
                     <label className="contact__form-tag text-cs">
                         Your Subject <b>*</b>
                     </label>
-                    <input type="email" className="contact__form-input" />
+                    <input type="text" className="contact__form-input" />
                 </div>
                 <div className="contact__form-div contact__form-area">
                     <label className="contact__form-tag text-cs">

@@ -2,7 +2,7 @@ import React from 'react'
 import profileImg from '../../assets/profile-img.png'
 import shapeOne from '../../assets/shape-1.png'
 import shapeTwo from '../../assets/shape-2.png'
-import { FaTwitter, FaDribbble, FaBehance } from 'react-icons/fa'
+import { FaGithub, FaFacebook, FaLinkedinIn } from 'react-icons/fa'
 import './home.css'
 
 const Home = () => {
@@ -59,14 +59,14 @@ const Home = () => {
           </p>
 
           <div className="home__socials">
-            <a href="" className="home__socials-link">
-              <FaTwitter />
+            <a href="https://github.com/ddhienpy" className="home__socials-link" target="_blank" rel="noopener">
+              <FaGithub />
             </a>
-            <a href="" className="home__socials-link">
-              <FaDribbble />
+            <a href="https://www.facebook.com/ddhienpy" className="home__socials-link" target="_blank" rel="noopener">
+              <FaFacebook />
             </a>
-            <a href="" className="home__socials-link">
-              <FaBehance />
+            <a href="https://vn.linkedin.com/in/hiendd" className="home__socials-link" target="_blank" rel="noopener">
+              <FaLinkedinIn />
             </a>
           </div>
 

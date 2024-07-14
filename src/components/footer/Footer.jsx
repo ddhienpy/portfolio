@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBehance, FaDribbble, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import './footer.css'
 
 const Footer = () => {
@@ -7,14 +7,14 @@ const Footer = () => {
     <footer className="footer">
         <div className="footer__container container grid">
             <div className="footer__socials">
-                <a href="" className="footer__socials-link">
-                    <FaTwitter />
+                <a href="https://github.com/ddhienpy" className="footer__socials-link" target="_blank" rel="noopener">
+                    <FaGithub />
                 </a>
-                <a href="" className="footer__socials-link">
-                    <FaDribbble />
+                <a href="https://www.facebook.com/ddhienpy" className="footer__socials-link" target="_blank" rel="noopener">
+                    <FaFacebook />
                 </a>
-                <a href="" className="footer__socials-link">
-                    <FaBehance />
+                <a href="https://vn.linkedin.com/in/hiendd" className="footer__socials-link" target="_blank" rel="noopener">
+                    <FaLinkedinIn />
                 </a>
             </div>
 

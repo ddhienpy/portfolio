@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  app:
+    image: registry.gitlab.com/ddhien98/portfolio:latest
+    ports:
+      - "8000:80"
+    restart: unless-stopped
+    env_file: .env
